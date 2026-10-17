@@ -1,0 +1,80 @@
+/*
+filename: Trung Nhan
+author: Trung Nhan
+created: October 17, 2026
+last modified: October 17, 2026
+description: lab05.html
+*/
+
+article {
+    min-width: 30em;
+}
+
+#lists {
+    float: left;
+}
+
+#tables {
+    float: right;
+}
+
+table {
+    margin: auto;
+}
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+#lists, #tables, #hyperlinks, #images {
+    text-align: center;
+    width: 50%;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+/* Footer paragraphs across one line */
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+aside {
+    float: right;               
+    width: 280px;               
+    margin: 0 0 15px 20px;      
+    padding: 20px;              
+    
+    
+    border: 2px solid purple;   
+    border-radius: 15px;        
+    
+    
+    background: linear-gradient(to bottom, #e6d7ff 0%, #ffffff 40%);
+    
+    
+    font-style: italic;         
+}

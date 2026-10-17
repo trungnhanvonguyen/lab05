@@ -1,0 +1,73 @@
+/*
+filename: Trung Nhan
+author: Trung Nhan
+created: October 10, 2026
+last modified: October 10, 2026
+description: lab04.html
+*/
+* { font-family: calibri, sans-serif; }
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+#headings h2,#sc h2,#lists h2,#tables h2,#images h2,#hyperlinks h2 {
+    color:rgb(5, 253, 253)
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 2px;
+    display: inline-block;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+nav p, .menu {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 2px;
+    display: inline-block;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    display: none;
+}
+
+#heading-3-1 {
+    color: red;
+
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
